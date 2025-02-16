@@ -1,3 +1,7 @@
+#note full codes about neural .json for query processing are under encoding-decoding processing before nbeing uploaded here to avoid infringements of ownership
+#Remember to visit nobestudy.io for APIs access 
+#Soon all .json will be uploaded and generative neural model to run it in your local PC under 8CPU
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
