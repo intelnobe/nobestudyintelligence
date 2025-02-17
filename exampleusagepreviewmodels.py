@@ -125,8 +125,8 @@ class NobeInference:
         
     def preprocess_question(self, question: str) -> torch.Tensor:
         """Preprocess question text into model input"""
-        # Implement your tokenization here
-        # For demonstration, using simple splitting
+        
+        #nobeintelligence  basic tokenization
         tokens = [1] + [hash(word) % (self.config.vocab_size-2) + 2 
                        for word in question.lower().split()]
         return torch.tensor([tokens])
