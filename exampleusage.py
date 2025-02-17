@@ -3,7 +3,7 @@
 
 """
 NobeStudy Intelligence System with Coherent Response Generation
-Developed by NobeStudy Team under Noel Sebastian in Tanzania
+Developed by NobeStudy Team
 """
 
 import torch
